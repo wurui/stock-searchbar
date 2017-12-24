@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+            <stock-analysis>
+        <i>
+            <symbol>
+                nice screen
+            </symbol>
+            <close>
+                0.86
+            </close>
+            <med>
+                0.82
+            </med>
+            <avg>
+                8727.25
+            </avg>
+        </i>
+    </stock-analysis>
+    </data>
+</root>

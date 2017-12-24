@@ -1,0 +1,6 @@
+{
+  "name": "stock-searchbar",
+  "version": "0.0.1",
+  "apiDependencies": ["stock-analysis"]
+}
+
