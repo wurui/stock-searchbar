@@ -1,3 +1,1 @@
-.oxmod-stock-searchbar{
-/* CSS */
- }
+.oxmod-stock-searchbar ul{width:100%;overflow:hidden}.oxmod-stock-searchbar .searchbar{padding:10px;text-align:center}.oxmod-stock-searchbar .searchbar>input{width:90%;height:30px;border:solid 1px #f1f1f1;padding:2px 5px}.oxmod-stock-searchbar .suggest{position:absolute;z-index:1;margin-top:30px;margin-left:14px;border:solid 1px #ccc;background-color:#fff;padding:5px 0}.oxmod-stock-searchbar .suggest li{height:30px;line-height:30px;border-bottom:solid 1px #f1f1f1;color:#666;text-align:left;margin:0 5px}.oxmod-stock-searchbar .suggest li:last-child{border-bottom:none}.oxmod-stock-searchbar .suggest li:hover{color:#333;background-color:#eee}.oxmod-stock-searchbar .suggest li.noresult{text-align:center;color:#ccc;font-style:italic}
