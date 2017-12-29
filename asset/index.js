@@ -8,7 +8,7 @@ define(['oxjs'],function(OXJS){
                 	var val=$.trim(searchInput.val())
                     $mod.OXRefresh({
                         'stock-analysis':{
-                            symbol:val
+                            symbol:{$contains:val}
                         }
                     });
                     val?sugguest.show():sugguest.hide();
