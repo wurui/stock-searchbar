@@ -6,7 +6,7 @@ define(['oxjs'],function(OXJS){
                 if(TO)clearTimeout(TO);
                 TO=setTimeout(function(){
                 	var val=$.trim(searchInput.val())
-                    $mod.OXRefresh({
+                    $('[ox-refresh]',$mod).OXRefresh({
                         'stock-analysis':{
                             symbol:{$contains:'^'+val}
                         }
